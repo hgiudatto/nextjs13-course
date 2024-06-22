@@ -1,9 +1,16 @@
 import Image from "next/image";
+import Header from "./components/Header";
+import Logo from "./components/Logo"
 
 export default function Home() {
+  const name = "Achilles"
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Main page of my app!!</h1>
-    </main>
+    <div>
+      <Header name={"Peleus"} age={35} isMan={true}>
+        <p>A message from Home...</p>
+        <Logo />
+      </Header>
+      <Header name={"Achilles"} age={24} isMan={true} />
+    </div>
   );
 }
