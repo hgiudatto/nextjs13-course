@@ -35,7 +35,7 @@ export default function RootLayout({
             -
             <Link href="/login">Login</Link>
             -
-            <Link href="/password">Password</Link>
+            <Link href="/password">Recuperar Password</Link>
             -
             <Link href="/registro">Registro</Link>
           </nav>
